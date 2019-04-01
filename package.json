@@ -8,5 +8,12 @@
   "repository": {
     "type": "git",
     "url": "github:richytong/take-home-pay"
-  }
+  },
+  "keywords": [
+    "tax",
+    "taxes",
+    "calculator",
+    "salary",
+    "income"
+  ]
 }
