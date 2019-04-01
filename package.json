@@ -1,0 +1,12 @@
+{
+  "name": "take-home-pay",
+  "version": "0.1.0",
+  "description": "Calculates your take home pay after taxes",
+  "author": "Richard Tong",
+  "license": "UNLICENSED",
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "github:richytong/take-home-pay"
+  }
+}
