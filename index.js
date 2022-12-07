@@ -18,10 +18,10 @@ TAX_BRACKETS.forEach((entry, idx) => {
   salariesAndBracketAmounts.push([upperCutoff, amount, nextRate])
 })
 
-const calculateFinalIncome = (salary) => {
+const calculateFinalIncome = salary => {
   let subBracketTaxOwed = 0
-  let prevCutoff
-  let myRate
+  let prevCutoff = 0
+  let myRate = 0
   salariesAndBracketAmounts.forEach((entry, idx) => {
     const [salaryCutoff, bracketAmountOwed, rate] = entry
     if (salaryCutoff > salary) return

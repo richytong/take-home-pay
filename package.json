@@ -9,6 +9,10 @@
     "type": "git",
     "url": "github:richytong/take-home-pay"
   },
+  "scripts": {
+    "test": "mocha *.js",
+    "lint": "eslint ."
+  },
   "keywords": [
     "tax",
     "taxes",
