@@ -1,4 +1,5 @@
 # Tax
+![Node.js CI](https://github.com/richytong/take-home-pay/workflows/Node.js%20CI/badge.svg?branch=master)
 Calculate your take home income after taxes
 
 # Usage
